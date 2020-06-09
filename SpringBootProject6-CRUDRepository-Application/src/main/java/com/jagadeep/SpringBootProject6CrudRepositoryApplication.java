@@ -13,7 +13,6 @@ import com.jagadeep.repository.ContactDetailsRepository;
 public class SpringBootProject6CrudRepositoryApplication {
 
 	public static void main(String[] args) {
-		System.out.println("main method is executed);
 		ConfigurableApplicationContext ctx=null;
 		ContactDetailsRepository  repo=null;
 		List<ContactDetails>  contactList=null;
